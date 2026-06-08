@@ -2,6 +2,8 @@
 
 English | [中文](README.zh-CN.md)
 
+> **Renamed:** this project now lives at [enerai/codex-auth-snap](https://github.com/enerai/codex-auth-snap). Use the new repository for releases, issues, and documentation updates.
+
 Tiny, auditable, offline Codex ChatGPT `auth.json` snapshot switcher for macOS, built for high-volume coding workflows with multiple authorized ChatGPT accounts.
 
 `codex-auth-switch` is a minimal zsh CLI for developers who code a lot with Codex and want a clean way to switch between their own authorized ChatGPT accounts on one machine. It saves and restores local `auth.json` snapshots. It has no third-party runtime dependencies, does not install a dependency tree, does not call the network, and never prints credential contents.

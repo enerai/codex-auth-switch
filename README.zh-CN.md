@@ -2,6 +2,8 @@
 
 [English](README.md) | 中文
 
+> **项目已改名:** 新仓库是 [enerai/codex-auth-snap](https://github.com/enerai/codex-auth-snap). 后续 release, issue 和文档更新都放在新仓库.
+
 极简, 可审计, 完全离线的 Codex ChatGPT `auth.json` 快照切换工具, 适用于编程量大的多 ChatGPT 账号 macOS 用户.
 
 `codex-auth-switch` 是一个极简 zsh CLI, 面向高频使用 Codex 编程, 且持有多个 ChatGPT 账号的开发者. 它用来在同一台 Mac 上切换你自己拥有或被明确授权使用的 Codex ChatGPT 账号. 它只保存和恢复本机 `auth.json` 快照. 它没有第三方运行时依赖, 不安装依赖树, 不联网, 也不会打印任何凭据内容.
